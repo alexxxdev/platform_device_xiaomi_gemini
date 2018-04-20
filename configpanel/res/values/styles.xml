@@ -15,7 +15,6 @@
 -->
 
 <resources>
-
     <style name="XiaomiPartsTheme" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="preferenceTheme">@android:style/Theme.DeviceDefault.Settings</item>
         <item name="android:switchPreferenceStyle">@style/SettingsSwitchPreference</item>
@@ -23,8 +22,6 @@
         <item name="android:preferenceStyle">@style/SettingsPreference</item>
         <item name="android:dialogPreferenceStyle">@style/SettingsDialogPreference</item>
         <item name="android:preferenceScreenStyle">@style/SettingsPreferenceScreen</item>
-        <item name="android:preferenceFragmentStyle">@style/PreferenceFragmentStyle</item>
-        <item name="preferenceFragmentStyle">@style/PreferenceFragmentStyle</item>
     </style>
 
     <!-- Preferences -->
@@ -53,41 +50,5 @@
     </style>
 
     <style name="SettingsListPreference" parent="SettingsPreference"/>
-
-    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Material.Widget.TabWidget" />
-
-    <style name="settingSeparator">
-        <item name="android:paddingTop">2dp</item>
-        <item name="android:paddingBottom">2dp</item>
-        <item name="android:background">@android:drawable/divider_horizontal_dark</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-    </style>
-
-    <style name="ProfilesPreferenceStyle">
-        <item name="android:layout">@layout/preference_profiles</item>
-        <item name="android:widgetLayout">@layout/preference_profiles_widget</item>
-    </style>
-
-    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Material.Small" />
-    <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Material.Title" />
-
-    <style name="TextAppearance.Small.SwitchBar">
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
-        <item name="android:textStyle">normal</item>
-    </style>
-
-    <style name="PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
-        <item name="android:paddingStart">0dp</item>
-        <item name="android:paddingEnd">0dp</item>
-        <item name="android:layout_marginStart">0dp</item>
-        <item name="android:layout_marginEnd">0dp</item>
-        <item name="android:scrollbarStyle">outsideOverlay</item>
-    </style>
-
-    <style name="PreferenceFragmentStyle" parent="@*android:style/PreferenceFragment.Material">
-        <item name="allowDividerAfterLastItem">false</item>
-        <item name="android:layout">@layout/preference_list_fragment</item>
-    </style>
 </resources>
 

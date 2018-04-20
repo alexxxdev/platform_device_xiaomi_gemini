@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.ActionBar">
-        <item name="switchBarMarginStart">72dp</item>
-        <item name="switchBarMarginEnd">16dp</item>
-        <item name="switchBarBackgroundColor">?android:attr/colorSecondary</item>
-    </style>
-</resources>

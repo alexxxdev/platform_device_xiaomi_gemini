@@ -9,7 +9,6 @@ LOCAL_REQUIRED_MODULES := XiaomiPocketMode
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v14-preference \
-    android-support-v13 \
     android-support-v7-appcompat \
     android-support-v7-preference \
     android-support-v7-recyclerview
